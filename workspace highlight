@@ -1,0 +1,2 @@
+local Highlight = Instance.new("Highlight")
+Highlight.Parent = workspace

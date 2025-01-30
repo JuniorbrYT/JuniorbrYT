@@ -1,0 +1,10 @@
+local PlayerName = game.Players.LocalPlayer.Name
+local Highlight = Instance.new("Highlight")
+
+script.Parent.MouseButton1Click:Connect(function()
+    
+    Highlight.Parent = game.Workspace[PlayerName]
+    Highlight.FillTransparency = 0
+    Highlight.OutlineTransparency = 0.4
+    Highlight.OutlineColor = Color3.fromRGB(255, 0, 0)
+end)

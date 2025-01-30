@@ -1,0 +1,3 @@
+local Player = game.Players.LocalPlayer
+
+Player.Character:ScaleTo(Player.Character:GetScale()+ 10)
